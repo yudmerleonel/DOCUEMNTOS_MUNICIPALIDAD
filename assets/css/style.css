@@ -295,8 +295,9 @@ span:hover {
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 768px) {
     main {
-        max-width: 80%;
-        padding: 40px;
+        width: 100vw; /* Ancho del viewport para ocupar toda la pantalla */
+        box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+        padding: 20px; /* Puedes ajustar el padding según tus necesidades */
     }
 
     .imagenes_cabecera_fila {
@@ -316,10 +317,9 @@ span:hover {
         margin-bottom: 10px;
     }
 
-    /* Nueva regla para el formulario para que no se vea afectado */
     form {
-        max-width: initial; /* Restablece el ancho máximo del formulario */
-        margin: initial; /* Restablece los márgenes del formulario */
+        max-width: initial;
+        margin: initial;
     }
 }
 

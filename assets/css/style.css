@@ -293,7 +293,7 @@ span:hover {
     content: "Ubicación del Documento: ";
 }
 /* Estilos para dispositivos móviles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     main {
         max-width: 80%; /* Reduce el ancho del contenedor principal en dispositivos más pequeños */
         padding: 20px; /* Reduce el padding en dispositivos más pequeños */

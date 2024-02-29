@@ -293,29 +293,36 @@ span:hover {
     content: "Ubicación del Documento: ";
 }
 /* Estilos para dispositivos móviles */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     main {
-        max-width: 80%; /* Reduce el ancho del contenedor principal en dispositivos más pequeños */
-        padding: 20px; /* Reduce el padding en dispositivos más pequeños */
+        max-width: 80%;
+        padding: 20px;
     }
 
     .imagenes_cabecera_fila {
-        gap: 10px; /* Reducir el espacio entre las imágenes en dispositivos más pequeños */
+        gap: 10px;
     }
 
     .imagenes_cabecera_fila img {
-        max-width: 100%; /* Hacer que las imágenes ocupen el ancho completo */
+        max-width: 100%;
     }
 
     .campos {
-        padding: 10px; /* Reducir el padding en dispositivos más pequeños */
+        padding: 10px;
     }
 
     span {
-        padding: 10px; /* Reducir el padding en dispositivos más pequeños */
-        margin-bottom: 10px; /* Reducir el espacio entre secciones en dispositivos más pequeños */
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Nueva regla para el formulario para que no se vea afectado */
+    form {
+        max-width: initial; /* Restablece el ancho máximo del formulario */
+        margin: initial; /* Restablece los márgenes del formulario */
     }
 }
+
 
 
 /* Ajuste de las posiciones iniciales */

@@ -296,7 +296,7 @@ span:hover {
 @media screen and (max-width: 768px) {
     main {
         max-width: 80%;
-        padding: 20px;
+        padding: 40px;
     }
 
     .imagenes_cabecera_fila {
